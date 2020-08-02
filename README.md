@@ -14,7 +14,7 @@ design:
 t表可以击中cuboid,但是当没有最优得cuboid的时候,base cuboid会压垮整个服务(id是高基列), 在新的架构里面,我们可以使用部分预计算的表(base cuboid) 利用click house极致单机性能,解决子表计算,然后保存数据到通用存储,spark接下来进行join计算
 
 
-2. spark + hive =>不通阶段使用不通的引擎进行计算,利用mr稳定和spark快的有点
+2. spark + hive =>不同阶段使用不同的引擎进行计算,io密集用mr 计算密集spark,解决spark超大数据集计算上不稳定问题
 
 3. 统一优化入口=> hive 做了mysql pushdown 但是spark没有,spark也得写一份pushdown,每个查询引擎都有自己的一套异构pushdown的方法,都是各自实现,差异也很大,很多客户还得知道各自不同实现的坑,实在是难
 
