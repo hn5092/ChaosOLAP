@@ -18,4 +18,5 @@ t表可以击中cuboid,但是当没有最优得cuboid的时候,base cuboid会压
 
 3. 统一优化入口=> hive 做了mysql pushdown 但是spark没有,spark也得写一份pushdown,每个查询引擎都有自己的一套异构pushdown的方法,都是各自实现,差异也很大,很多客户还得知道各自不同实现的坑,实在是难
 
+4. 实时olap => 实时组件A实现对实时数据的查询,后续组件进行查询优化(猜想)
 
