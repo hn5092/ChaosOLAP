@@ -1,2 +1,2 @@
 # ChaosOLAP
-base on spark columar mpp engine
+Based on spark columnar mpp/batch engine
