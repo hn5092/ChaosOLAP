@@ -1,0 +1,7 @@
+# ninja log v5
+522	608	1658501783682983157	src/libcpp.dylib	2a511bc2eee12b08
+2	521	1658501783594986692	src/CMakeFiles/cpp.dir/library.cpp.o	77fb4c0cde4d397f
+0	58	1658502741158397839	build.ninja	3f7e21e3c4d32ad6
+4	408	1658502746364833394	src/CMakeFiles/cpp.dir/library.cpp.o	7c2cfda435aaa5ee
+1	486	1658502961483936372	src/CMakeFiles/cpp.dir/jni_wrapper.cc.o	31cdfc367b5093c2
+486	540	1658502961542338656	src/libcpp.dylib	642cb32914175699

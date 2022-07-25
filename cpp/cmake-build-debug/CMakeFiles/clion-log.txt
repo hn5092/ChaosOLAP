@@ -1,0 +1,9 @@
+"/Users/xuyiming/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/xuyiming/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/CLion.app/Contents/bin/ninja/mac/ninja" -DCMAKE_C_COMPILER=/usr/local/llvm/bin/clang -DCMAKE_CXX_COMPILER=/usr/local/llvm/bin/clang++ -G Ninja -S /Users/xuyiming/git/ChaosOLAP/cpp -B /Users/xuyiming/git/ChaosOLAP/cpp/cmake-build-debug
+1
+found /System/Library/Frameworks/JavaVM.framework
+-- ----------> Adding thirdparty library java_jvm. <----------
+-- Header files: /Users/xuyiming/Library/Java/JavaVirtualMachines/openjdk-18.0.2/Contents/Home/include;/Users/xuyiming/Library/Java/JavaVirtualMachines/openjdk-18.0.2/Contents/Home/include/darwin;/Users/xuyiming/Library/Java/JavaVirtualMachines/openjdk-18.0.2/Contents/Home/include
+-- Added shared library dependency java_jvm: /System/Library/Frameworks/JavaVM.framework
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/xuyiming/git/ChaosOLAP/cpp/cmake-build-debug
